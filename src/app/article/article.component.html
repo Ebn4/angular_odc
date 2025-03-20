@@ -1,0 +1,21 @@
+<article>
+  <div class="row">
+      <div class="col3">
+          <img src="{{article.photo}}" height="300" alt="" >
+      </div>
+      <div class="col7">
+          <h3>{{article.title}}</h3>
+          <p><b>{{article.categories}}</b></p>
+          <p>{{article.slug}}</p>
+          <p><i>Publié par <b>{{article.auteur}}</b>    Le  {{article.create_at}}</i></p>
+          <div class="col">
+              <div>
+                  <p>5 commentaires</p>
+              </div>
+              <div>
+                  <p ><a [routerLink]="['/article', article.id ]" class="btn">Voir plus</a></p>
+              </div>
+          </div>
+      </div>
+  </div>
+</article>
