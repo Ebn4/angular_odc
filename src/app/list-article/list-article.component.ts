@@ -7,7 +7,7 @@ import { ArticleService } from '../service/article.service';
 
 @Component({
   selector: 'app-list-article',
-  imports: [ ArticleComponent,NgForOf],
+  imports: [ArticleComponent,NgForOf],
   templateUrl: './list-article.component.html',
   styleUrl: './list-article.component.css'
 })

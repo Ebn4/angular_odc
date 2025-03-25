@@ -1,0 +1,7 @@
+<div class="container">
+  <form class="mt-6" action="" (ngSubmit)="onSubmitForm()">
+    <input type="text" [(ngModel)]="email" class="w-full mt-1 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 focus:border-blue-400 outline-none" placeholder="exemple@email.com" placeholder="Username"  name="username" required>
+    <input type="password" [(ngModel)]="mot_de_passe" class="w-full mt-1 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 focus:border-blue-400 outline-none" placeholder="exemple@email.com" placeholder="Password"  name="password" required>
+    <button type="submit" class="w-full mt-6 bg-blue-600 text-white p-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">Login</button>
+  </form>
+</div>
