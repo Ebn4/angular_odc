@@ -1,11 +1,17 @@
+import { Categorie } from "./categorie";
+
 export interface Article {
   id:number;
   title :string;
-  content  :string;
   slug :string;
-  auteur : string;
   photo  :string;
+  auteur : string;
+  content  :string;
+  user_id:number;
   create_at:string;
+  update_at:string;
   nb_comments:number;
-  categories:string[];
+  categories:Categorie[];
 }
+
+

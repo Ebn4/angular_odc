@@ -1,13 +1,23 @@
+
+
 article{
   box-shadow: 1px 1px 10px silver;
   margin-bottom: 30px;
   padding: 10px 30px;
+  margin-left: 8%;
+  width: 80%;
 }
 
 h3{
   font-family: Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 30px;
+}
+
+article .container{
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
 }
 
 .row{
